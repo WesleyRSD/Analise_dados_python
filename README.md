@@ -10,8 +10,9 @@ Este é um projeto de **Dashboard de Inteligência de Mercado** desenvolvido em 
 - **Análise Temporal**: Acompanhe as métricas de receita e lucro ao longo do tempo, identificando sazonalidade e tendências.
 - **Filtros Interativos**: Explore os dados aplicando filtros por região, canal de venda e categoria de produto.
 
-## Estrutura do Projeto 📂
+# Estrutura do Projeto 📁
 
+```plaintext
 data-analytics-dashboard/
 ├── data/                           # Diretório com o dataset
 │   └── Vendas_Inteligencia_Mercado_Sintetico.csv
@@ -25,6 +26,7 @@ data-analytics-dashboard/
 ├── README.md                       # Arquivo de documentação do projeto
 └── requirements.txt                # Arquivo com as dependências do projeto
 
+```
 
 ## Requisitos 🛠️
 
@@ -36,44 +38,44 @@ Use o comando abaixo para instalar as dependências necessárias:
 
 ```bash
 pip install -r requirements.txt
-```
 
+```
 Dependências Principais
 Python 3.8+
 Streamlit - Para construir o dashboard
 Pandas - Para manipulação e análise de dados
 
-Executando o Dashboard 🚀
-1.Navegue até o diretório do projeto no terminal.
-2.Execute o seguinte comando para iniciar o Streamlit e abrir o dashboard no navegador:
-streamlit run dashboards/dashboard.py
-3.Acesse o dashboard no seu navegador no endereço: http://localhost:8501
+## Executando o Dashboard 🚀
+- Navegue até o diretório do projeto no terminal.
+- Execute o seguinte comando para iniciar o Streamlit e abrir o dashboard no navegador:
+- streamlit run dashboards/dashboard.py
+- Acesse o dashboard no seu navegador no endereço: http://localhost:8501
 
-Como Usar o Dashboard 🖥️
+## Como Usar o Dashboard 🖥️
 
 O dashboard permite que você explore os dados e visualize insights chave:
 
-KPIs Principais: Exibe a receita total, lucro bruto e o NPS médio.
-Filtros Interativos: Selecione regiões, canais de venda e categorias de produto para refinar a análise.
-Gráficos Interativos: Visualize a receita e o lucro por região e canal, além de outras análises visuais.
+**KPIs Principais: Exibe a receita total, lucro bruto e o NPS médio.
+**Filtros Interativos: Selecione regiões, canais de venda e categorias de produto para refinar a análise.
+**Gráficos Interativos: Visualize a receita e o lucro por região e canal, além de outras análises visuais.
 
-Dataset 🗃️
+## Dataset 🗃️
 O dataset utilizado é um conjunto de dados fictício gerado para fins de demonstração, contendo as seguintes colunas:
 
 Data_Venda: Data da venda
-**Produto e Categoria_Produto: Nome e categoria do produto
-**Regiao e Canais_Venda: Região e canal de venda (online ou loja física)
-**Quantidade, Preco_Unitario, Desconto: Quantidade vendida, preço unitário e desconto aplicado
-**Cliente_ID, Cliente_Idade, Cliente_Sexo: Informações demográficas dos clientes
-**Receita, Custo e Lucro_Bruto: Valores calculados com base nas vendas
+- roduto e Categoria_Produto: Nome e categoria do produto
+- Regiao e Canais_Venda: Região e canal de venda (online ou loja física)
+- Quantidade, Preco_Unitario, Desconto: Quantidade vendida, preço unitário e desconto aplicado
+- Cliente_ID, Cliente_Idade, Cliente_Sexo: Informações demográficas dos clientes
+- Receita, Custo e Lucro_Bruto: Valores calculados com base nas vendas
 
-Próximos Passos 🔄
-**Implementar novas visualizações, como análise de devoluções e fidelidade de clientes.
-**Expandir o dashboard com previsões de vendas e análises mais avançadas.
-**Integrar dados reais de um sistema de CRM ou ERP para análises mais aprofundadas.
+## Próximos Passos 🔄
+- Implementar novas visualizações, como análise de devoluções e fidelidade de clientes.
+- Expandir o dashboard com previsões de vendas e análises mais avançadas.
+- Integrar dados reais de um sistema de CRM ou ERP para análises mais aprofundadas.
 
-Licença 📄
+## Licença 📄
 Este projeto é disponibilizado sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
 
 
-
+Desenvolvido com 💻 por [Wesley Schultz]
